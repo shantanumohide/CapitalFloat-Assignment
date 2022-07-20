@@ -252,11 +252,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Web dev projects\\ProductApi\\ProductApi.csproj",
+      "projectUniqueName": "E:\\Web dev projects\\CapitalFloat-Assignment\\ProductApi\\ProductApi.csproj",
       "projectName": "ProductApi",
-      "projectPath": "E:\\Web dev projects\\ProductApi\\ProductApi.csproj",
+      "projectPath": "E:\\Web dev projects\\CapitalFloat-Assignment\\ProductApi\\ProductApi.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "E:\\Web dev projects\\ProductApi\\obj\\",
+      "outputPath": "E:\\Web dev projects\\CapitalFloat-Assignment\\ProductApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

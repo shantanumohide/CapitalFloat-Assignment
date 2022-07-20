@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HpAHLgwsZNamT6Ne0hMdgvQTjOwpTGlQikc8YuKKE5tKFEbR9koNFZIRvbZVeLJIgO2EHFSDHYjLKCPX/SCNOA==",
+  "dgSpecHash": "VH7DI8ja3VJhh+v1e4CoYkZX33XghnzXpr3OZm1W6aHfYt7VDKcxNxb+XlqMtFr3RZ+HS0f/fD9fzPWnjU96pg==",
   "success": true,
-  "projectFilePath": "E:\\Web dev projects\\ProductApi\\ProductApi.csproj",
+  "projectFilePath": "E:\\Web dev projects\\CapitalFloat-Assignment\\ProductApi\\ProductApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

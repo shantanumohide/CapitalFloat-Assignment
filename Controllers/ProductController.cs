@@ -43,8 +43,8 @@ public class ProductController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Create(Product _product){
         try{
-            var product = await _productService.Create(_product);
-            return Ok(product);
+            await _productService.Create(_product);
+            return Ok("Success");
         }catch(Exception ex){
             return NotFound(ex.Message);
         }
@@ -53,8 +53,8 @@ public class ProductController : ControllerBase
     [HttpPatch("{id}")]
     public async Task<IActionResult> Update(Product _product){
         try{
-            var product = await _productService.Update(_product);
-            return Ok(product);
+            await _productService.Update(_product);
+            return Ok("Success");
         }catch(Exception ex){
             return NotFound(ex.Message);
         }

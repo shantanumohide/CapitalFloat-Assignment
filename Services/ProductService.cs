@@ -9,14 +9,12 @@ public class ProductService:IProductService{
     //     new Product{
     //         productId=Guid.NewGuid(),
     //         Title="Adidas Sports Shoe",
-    //         DateCreated=DateTime.Now,
     //         Price=25,
     //         Details=""
     //     },
     //     new Product{
     //         productId=Guid.NewGuid(),
     //         Title="Jockey T-shirt",
-    //         DateCreated=DateTime.Now,
     //         Price=10,
     //         Details=""
     //     }
@@ -54,26 +52,24 @@ public class ProductService:IProductService{
         return product;
     }
 
-    public async Task<Product>Create(Product _product){
+    public async Task Create(Product _product){
         var product = new Product();
         try{
-            product = await _productRepository.Create(_product);
+            await _productRepository.Create(_product);
         }catch(Exception ex){
             Console.WriteLine(ex);
             throw ex;
         }
-        return product;
     }
 
-    public async Task<Product>Update(Product _product){
+    public async Task Update(Product _product){
         var product = new Product();        
         try{
-            product = await _productRepository.Update(_product);
+            await _productRepository.Update(_product);
         }catch(Exception ex){
             Console.WriteLine(ex);
             throw ex;
         }
-        return product;
     }
 
     public async Task Delete(Guid productId){

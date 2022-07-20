@@ -7,9 +7,9 @@ public interface IProductService {
 
     public Task<Product>GetById(Guid id);
 
-    public Task<Product>Create(Product _product);
+    public Task Create(Product _product);
 
-    public Task<Product>Update(Product _product);
+    public Task Update(Product _product);
 
     public Task Delete(Guid id);
 }
